@@ -16,6 +16,3 @@ This project was built to demonstrate "design readiness" and avoid common overen
 * **Encapsulation:** Protected client balances and sensitive data, accessible only through secure methods.
 * **Inheritance & Polymorphism:** Structured user roles (e.g., Admin vs. Client) to share core logic while maintaining strict access permissions.
 * **Scalability:** Designed the class structure so new features (like VIP accounts or loan systems) can be added iteratively without breaking existing code.
-
-## 💻 System Preview
-*(Note: Replace this text with a screenshot of your terminal showing the main menu!)*
