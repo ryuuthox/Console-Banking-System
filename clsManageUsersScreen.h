@@ -33,7 +33,7 @@ private:
     static void backToManageUsersMenu() {
         cout << "Press any key to go back manage users screen... ";
         system("pause>0");
-        system("cls");
+        CLEAR_SCREEN;
         showManageUsersScreen();
 
     }
@@ -77,27 +77,27 @@ private:
         switch (option)
         {
         case clsManageUsersScreen::en_ListUsers:
-            system("cls");
+            CLEAR_SCREEN;
             _showListUsersScreen();
             backToManageUsersMenu();
             break;
         case clsManageUsersScreen::en_AddNewUser:
-            system("cls");
+            CLEAR_SCREEN;
             _showAddNewUserScreen();
             backToManageUsersMenu();
             break;
         case clsManageUsersScreen::en_DeleteUser:
-            system("cls");
+            CLEAR_SCREEN;
             _showDeleteUserScreen();
             backToManageUsersMenu();
             break;
         case clsManageUsersScreen::en_UpdateUser:
-            system("cls");
+            CLEAR_SCREEN;
             _showUpdateUserScreen();
             backToManageUsersMenu();
             break;
         case clsManageUsersScreen::en_FindUser:
-            system("cls");
+            CLEAR_SCREEN;
             _showFindUserScreen();
             backToManageUsersMenu();
             break;

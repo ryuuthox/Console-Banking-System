@@ -37,7 +37,7 @@ private:
 	static void _backToMainMenu() {
 		cout << "press any key to go back to main menu ";
 		system("pause>0");
-		system("cls");
+		CLEAR_SCREEN;
 		showMainMenuScreen();
 	}
 
@@ -91,52 +91,52 @@ private:
 		switch (option)
 		{
 		case clsMainMenuScreen::en_ShowClientsList:
-			system("cls");
+			CLEAR_SCREEN;
 			_showClientsList();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_AddNewClient:
-			system("cls");
+			CLEAR_SCREEN;
 			_addNewClient();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_DeleteClient:
-			system("cls");
+			CLEAR_SCREEN;
 			_deleteClient();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_UpdateClient:
-			system("cls");
+			CLEAR_SCREEN;
 			_updateClientInfo();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_FindClient:
-			system("cls");
+			CLEAR_SCREEN;
 			_findClient();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_Transactions:
-			system("cls");
+			CLEAR_SCREEN;
 			_Transactions();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_ManageUsers:
-			system("cls");
+			CLEAR_SCREEN;
 			_manageUsers();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_LoginRegisterList:
-			system("cls");
+			CLEAR_SCREEN;
 			_LoginRegistersScreen();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_CurrencyExchange:
-			system("cls");
+			CLEAR_SCREEN;
 			_showCurrencyExchangScreen();
 			_backToMainMenu();
 			break;
 		case clsMainMenuScreen::en_LogOut:
-			system("cls");
+			CLEAR_SCREEN;
 			_logout();
 			break;
 		default:

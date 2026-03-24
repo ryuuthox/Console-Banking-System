@@ -29,7 +29,7 @@ private:
 	static void _backToTransactionsMenu() {
 		cout << "Press any key to go back transactions menu... ";
 		system("pause>0");
-		system("cls");
+		CLEAR_SCREEN;
 		showTransactionsMenuScreen();
 	}
 
@@ -56,27 +56,27 @@ private:
 	static void _performTransactions(enTransactionsOptions option) {
 		switch (option) {
 		case enTransactionsOptions::en_deposit:
-			system("cls");
+			CLEAR_SCREEN;
 			_showDepositScreen();
 			_backToTransactionsMenu();
 			break;
 		case enTransactionsOptions::en_withDraw:
-			system("cls");
+			CLEAR_SCREEN;
 			_showWithdrawScreen();
 			_backToTransactionsMenu();
 			break;
 		case enTransactionsOptions::en_totalBalances:
-			system("cls");
+			CLEAR_SCREEN;
 			_showTotalBalancesScreen();
 			_backToTransactionsMenu();
 			break;
 		case enTransactionsOptions::en_Transfers:
-			system("cls");
+			CLEAR_SCREEN;
 			_showTransfersScreen();
 			_backToTransactionsMenu();
 			break;
 		case enTransactionsOptions::en_LogTransfers:
-			system("cls");
+			CLEAR_SCREEN;
 			_showLogTransfersScreen();
 			_backToTransactionsMenu();
 			break;

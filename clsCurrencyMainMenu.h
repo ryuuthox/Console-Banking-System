@@ -16,7 +16,7 @@ private:
 	static void _backCurrencyExchangeMenu() {
 		cout << "Press any key to go back Currency Exchange Menu... ";
 		system("pause>0");
-		system("cls");
+		CLEAR_SCREEN;
 		showCurrencyExchangeScreen();
 	}
 
@@ -52,27 +52,27 @@ private:
 		switch (option)
 		{
 		case clsCurrencyMainMenu::en_listCurrencies:
-			system("cls");
+			CLEAR_SCREEN;
 			_showListCurrenciesScreen();
 			_backCurrencyExchangeMenu();
 			break;
 		case clsCurrencyMainMenu::en_findCurrency:
-			system("cls");
+			CLEAR_SCREEN;
 			_showFindCurrencyScreen();
 			_backCurrencyExchangeMenu();
 			break;
 		case clsCurrencyMainMenu::en_updateRate:
-			system("cls");
+			CLEAR_SCREEN;
 			_showUpdateRateScreen();
 			_backCurrencyExchangeMenu();
 			break;
 		case clsCurrencyMainMenu::en_currencyCalculator:
-			system("cls");
+			CLEAR_SCREEN;
 			_showCurrencyCalculatorScreen();
 			_backCurrencyExchangeMenu();
 			break;
 		case clsCurrencyMainMenu::en_backMainMenu:
-			system("cls");
+			CLEAR_SCREEN;
 			break;
 		default:
 			break;

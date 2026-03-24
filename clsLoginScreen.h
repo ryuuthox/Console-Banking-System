@@ -34,7 +34,7 @@ private:
 			}
 
 		} while (loginFailed);
-		system("cls");
+		CLEAR_SCREEN;
 		currentUser.saveLogin();
 			clsMainMenuScreen::showMainMenuScreen();
 			return 1;

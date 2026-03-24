@@ -34,7 +34,7 @@ public:
 	static void showCurrencyExchangeScreen() {
 		char conf;
 		do {
-			system("cls");
+			CLEAR_SCREEN;
 			_drawScreenHeader("Currency Calculator Screen");
 			cout << "Exchange from: ";
 			clsCurrency currencyFrom = clsCurrency::findCurrencyByCurrencyCode(_readCurrencyCode());
